@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0"/>
+  <meta name="description" content="Login Page"/>
+  <meta name="author" content="Olawunmi"/>
+  <link rel="icon" sizes="180x180" href="https://img.icons8.com/?size=1x&id=2963&format=png"/>
+  <title>Olawunmi Olabisi Login page</title>
+  </head>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-image: url(https://plus.unsplash.com/premium_photo-1676478746894-95d39780d573?auto=format&fit=crop&q=80&w=987&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    header{
+      text-align: center;
+      padding: 50px;
+    }
+    #login-form{
+      background-color: hsl(32, 26%, 89%);
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input{
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    #login-btn{
+      background-color: #333;
+      cursor: pointer;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Login page</h1>
+    </header>
+    <div id="login-form">
+      <form action="#" method="post">
+        <label for="email">Email/Username:</label>
+        <input type="email" id="email" name="email" placeholder="Email/Username" required autocomplete="email">
+
+        <label for="Password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required autocomplete="current-password">
+
+        <button type="submit" id="Login-btn">Login</button>
+      </form>
+    </div>
+  </body>
+  </html>
